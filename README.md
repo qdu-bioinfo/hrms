@@ -64,7 +64,7 @@ The package should take less than 1 minute to install on a computer with the spe
 
 # Usage
 
-**a.  Load the demo dataset**
+**a.  Load the demo datasets**
 
 ```
 data(abd_matrix)
