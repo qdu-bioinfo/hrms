@@ -67,6 +67,7 @@ The package should take less than 1 minute to install on a computer with the spe
 **a.  Compute the distance matrix**
 
 ```
+data(abd_matrix)
 compfunc(abd_matrix, rev=0, dist_type=0, is_sim=0)
 ```
 
@@ -75,6 +76,7 @@ The method returns the pairwise distance or similarity matix.
 **b. Implement the PCoA**
 
 ```
+data(dist_matrix)
 pcoa(dist_matrix, k=3)
 ```
 
